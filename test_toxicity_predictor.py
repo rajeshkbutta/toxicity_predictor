@@ -22,8 +22,9 @@ class Test_toxicity_predictor(unittest.TestCase):
         pass
 
     def test_raw_data_retrieval(self):
+        with self.assertEqual(FileNotFoundError):
+            raw_data_retrieval("")
 
-        pass
 
 if __name__ == '__main__':
     unittest.main()
