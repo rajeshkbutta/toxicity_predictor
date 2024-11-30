@@ -1,5 +1,9 @@
+from toxicity_predictor import *
+
 def main():
-    print("Hello")
+    filepath = "Medicine_Details.csv"
+    preprocessing(filepath)
+
 
 if __name__ == "__main__":
     main()
